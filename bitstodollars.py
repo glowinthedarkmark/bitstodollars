@@ -14,8 +14,8 @@ def convert_bits_to_usd():
   # Calculate the cut that goes to Twitch by multiplying the cost by 0.3 (30%)
   cut = cost * 0.25
 
-  # Subtract the cut from the cost to get the final cost in USD
-  final_cost = cost - cut
+  # Add the cut from the cost to get the final cost in USD
+  final_cost = cost + cut
 
   # Return the final cost in USD
   return final_cost
