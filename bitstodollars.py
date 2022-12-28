@@ -22,4 +22,5 @@ def convert_bits_to_usd():
 
 # Test the function by calling it and printing the result to the console
 result = convert_bits_to_usd()
-print("Chatters paid about" result "US Dollars")
+
+print("Chatters paid about", result, "USD")
